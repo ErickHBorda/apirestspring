@@ -1,4 +1,4 @@
-FROM amazoncorrectto:17-alpine-jdk
+FROM openjdk:17-alpine
 
 COPY target/apirfds220241-0.0.1-SNAPSHOT.jar app.jar
 
